@@ -1,5 +1,5 @@
 import { Article } from "@/types/portfolio"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../ui/card"
 import { ExternalLink } from "lucide-react"
 import Link from "next/link"
 import LuminousBlob from "../layout/LuminousBlob"

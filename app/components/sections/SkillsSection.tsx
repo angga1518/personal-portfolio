@@ -1,5 +1,5 @@
 import { SkillCategory } from "@/types/portfolio"
-import { Badge } from "@/components/ui/badge"
+import { Badge } from "../ui/badge"
 import LuminousBlob from "../layout/LuminousBlob"
 
 interface SkillsSectionProps {
