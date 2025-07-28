@@ -1,0 +1,10 @@
+[
+  { "name": "TechCorp", "logo": "/placeholder.svg?height=60&width=120&text=TechCorp" },
+  { "name": "InnovateLab", "logo": "/placeholder.svg?height=60&width=120&text=InnovateLab" },
+  { "name": "DigitalFlow", "logo": "/placeholder.svg?height=60&width=120&text=DigitalFlow" },
+  { "name": "CloudSync", "logo": "/placeholder.svg?height=60&width=120&text=CloudSync" },
+  { "name": "DataViz", "logo": "/placeholder.svg?height=60&width=120&text=DataViz" },
+  { "name": "WebCraft", "logo": "/placeholder.svg?height=60&width=120&text=WebCraft" },
+  { "name": "AppFlow", "logo": "/placeholder.svg?height=60&width=120&text=AppFlow" },
+  { "name": "CodeLab", "logo": "/placeholder.svg?height=60&width=120&text=CodeLab" }
+]

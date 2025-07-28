@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Senior Frontend Developer",
+    "company": "Tech Corp",
+    "location": "Jakarta",
+    "period": "Jan 2022 - Present",
+    "description": [
+      "Led the development of the main dashboard using React and TypeScript",
+      "Improved application performance by 40% through code optimization",
+      "Mentored junior developers and conducted code reviews",
+      "Collaborated with design team to implement pixel-perfect UI components"
+    ]
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "Digital Solutions",
+    "location": "Bandung",
+    "period": "Jun 2020 - Dec 2021",
+    "description": [
+      "Developed responsive web applications using React and Next.js",
+      "Integrated RESTful APIs and managed state with Redux",
+      "Implemented automated testing with Jest and React Testing Library",
+      "Participated in agile development processes and sprint planning"
+    ]
+  },
+  {
+    "title": "Junior Web Developer",
+    "company": "StartupXYZ",
+    "location": "Jakarta",
+    "period": "Jan 2019 - May 2020",
+    "description": [
+      "Built landing pages and marketing websites using HTML, CSS, and JavaScript",
+      "Worked with WordPress and custom PHP development",
+      "Optimized websites for SEO and performance",
+      "Collaborated with marketing team on digital campaigns"
+    ]
+  }
+]

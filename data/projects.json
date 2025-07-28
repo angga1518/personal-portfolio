@@ -1,0 +1,58 @@
+[
+  {
+    "title": "E-Commerce Dashboard",
+    "description": "A comprehensive admin dashboard for managing online stores with real-time analytics.",
+    "images": [
+      "/placeholder.svg?height=200&width=300&text=Dashboard+Overview",
+      "/placeholder.svg?height=200&width=300&text=Analytics+View",
+      "/placeholder.svg?height=200&width=300&text=Product+Management"
+    ],
+    "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Chart.js"],
+    "liveUrl": "#",
+    "githubUrl": "#"
+  },
+  {
+    "title": "Task Management App",
+    "description": "A collaborative project management tool with drag-and-drop functionality.",
+    "images": [
+      "/placeholder.svg?height=200&width=300&text=Task+Board",
+      "/placeholder.svg?height=200&width=300&text=Calendar+View"
+    ],
+    "technologies": ["React", "Node.js", "MongoDB", "Socket.io", "Material-UI"],
+    "liveUrl": "#",
+    "githubUrl": "#"
+  },
+  {
+    "title": "Weather Forecast App",
+    "description": "A beautiful weather application with location-based forecasts and interactive maps.",
+    "images": ["/placeholder.svg?height=200&width=300&text=Weather+App"],
+    "technologies": ["Vue.js", "OpenWeather API", "Mapbox", "Vuetify"],
+    "liveUrl": "#",
+    "githubUrl": "#"
+  },
+  {
+    "title": "Social Media Platform",
+    "description": "A full-stack social media application with real-time messaging and content sharing.",
+    "images": [
+      "/placeholder.svg?height=200&width=300&text=Social+Feed",
+      "/placeholder.svg?height=200&width=300&text=Profile+Page",
+      "/placeholder.svg?height=200&width=300&text=Messaging",
+      "/placeholder.svg?height=200&width=300&text=Settings"
+    ],
+    "technologies": ["React", "Node.js", "PostgreSQL", "Socket.io", "AWS"],
+    "liveUrl": "#",
+    "githubUrl": "#"
+  },
+  {
+    "title": "Portfolio Website Builder",
+    "description": "A drag-and-drop website builder specifically designed for creating portfolio websites.",
+    "images": [
+      "/placeholder.svg?height=200&width=300&text=Builder+Interface",
+      "/placeholder.svg?height=200&width=300&text=Template+Gallery",
+      "/placeholder.svg?height=200&width=300&text=Live+Preview"
+    ],
+    "technologies": ["Vue.js", "Express.js", "MongoDB", "Stripe API"],
+    "liveUrl": "#",
+    "githubUrl": "#"
+  }
+]
