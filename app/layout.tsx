@@ -1,5 +1,5 @@
 import type React from "react"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Poppins } from "next/font/google"
 import "./globals.css"
 
@@ -12,7 +12,13 @@ export const metadata: Metadata = {
   title: "Muhammad Erlangga - Software Engineer",
   description:
     "Personal portfolio of Muhammad Erlangga, a passionate software engineer specializing in React, TypeScript, and modern web technologies.",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
 }
 
 export default function RootLayout({

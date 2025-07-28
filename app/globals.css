@@ -80,6 +80,34 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Prevent horizontal overflow on mobile */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Mobile container fixes */
+* {
+  box-sizing: border-box;
+}
+
+/* Ensure all sections stay within viewport */
+section {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Container improvements */
+.max-w-7xl, .max-w-6xl, .max-w-4xl {
+  max-width: calc(100vw - 2rem);
+}
+
+@media (min-width: 640px) {
+  .max-w-7xl, .max-w-6xl, .max-w-4xl {
+    max-width: none;
+  }
+}
+
 /* Prevent text overflow */
 .hero-title {
   word-wrap: break-word;
@@ -91,15 +119,26 @@ html {
 /* Additional responsive hero styles */
 @media (max-width: 640px) {
   .hero-title {
-    font-size: 2.5rem !important;
+    font-size: 2.25rem !important; /* text-4xl equivalent */
     line-height: 1.2;
+  }
+  
+  /* Better section spacing on mobile */
+  section {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
 @media (max-width: 480px) {
   .hero-title {
-    font-size: 2rem !important;
+    font-size: 1.875rem !important; /* text-3xl equivalent */
     line-height: 1.3;
+  }
+  
+  /* Smaller text sizes for mobile */
+  h2 {
+    font-size: 1.875rem !important; /* text-3xl instead of text-4xl */
   }
 }
 
@@ -368,6 +407,7 @@ html {
   overflow-y: hidden;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* Internet Explorer 10+ */
+  max-width: 100vw; /* Prevent overflow */
 }
 
 .horizontal-scroll-container::-webkit-scrollbar {
@@ -380,6 +420,8 @@ html {
   padding-bottom: 1rem;
   padding-top: 0.5rem;
   width: max-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .horizontal-scroll-item {
@@ -398,12 +440,34 @@ html {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .horizontal-scroll-container {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  
+  .horizontal-scroll-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
   .horizontal-scroll-item {
-    flex: 0 0 300px;
+    flex: 0 0 280px;
+    min-height: 350px;
   }
 
   .horizontal-scroll-item-article {
-    flex: 0 0 300px;
+    flex: 0 0 280px;
+    min-height: 180px;
+  }
+}
+
+@media (max-width: 480px) {  
+  .horizontal-scroll-item {
+    flex: 0 0 260px;
+  }
+
+  .horizontal-scroll-item-article {
+    flex: 0 0 260px;
   }
 
   .marquee-item {
@@ -428,10 +492,6 @@ html {
 }
 
 /* Smooth scrolling for horizontal containers */
-.horizontal-scroll-container {
-  scroll-behavior: smooth;
-}
-
 /* Enhanced hover effects */
 .horizontal-scroll-item:hover,
 .horizontal-scroll-item-article:hover {
