@@ -80,6 +80,29 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Prevent text overflow */
+.hero-title {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  max-width: 100%;
+}
+
+/* Additional responsive hero styles */
+@media (max-width: 640px) {
+  .hero-title {
+    font-size: 2.5rem !important;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem !important;
+    line-height: 1.3;
+  }
+}
+
 /* Luminous Aurora Effect for Panels */
 .luminous-blob {
   position: absolute;
@@ -355,27 +378,32 @@ html {
   display: flex;
   gap: 1.5rem;
   padding-bottom: 1rem;
+  padding-top: 0.5rem;
   width: max-content;
 }
 
 .horizontal-scroll-item {
   flex: 0 0 350px;
   height: auto;
+  border-radius: 0.75rem;
+  min-height: 400px;
 }
 
 .horizontal-scroll-item-article {
-  flex: 0 0 300px;
+  flex: 0 0 350px;
   height: auto;
+  border-radius: 0.75rem;
+  min-height: 200px;
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .horizontal-scroll-item {
-    flex: 0 0 280px;
+    flex: 0 0 300px;
   }
 
   .horizontal-scroll-item-article {
-    flex: 0 0 250px;
+    flex: 0 0 300px;
   }
 
   .marquee-item {
@@ -391,6 +419,12 @@ html {
   .bg-dot-pattern {
     background-size: 16px 16px;
   }
+
+  /* Hero text responsive */
+  h1 {
+    word-break: break-word;
+    hyphens: auto;
+  }
 }
 
 /* Smooth scrolling for horizontal containers */
@@ -403,4 +437,17 @@ html {
 .horizontal-scroll-item-article:hover {
   transform: translateY(-4px);
   box-shadow: 0 20px 25px -5px rgba(59, 130, 246, 0.1), 0 10px 10px -5px rgba(59, 130, 246, 0.04);
+  border-radius: 0.75rem;
+}
+
+/* Ensure cards maintain their border radius on hover */
+.horizontal-scroll-item,
+.horizontal-scroll-item-article {
+  border-radius: 0.75rem !important;
+  transition: all 0.3s ease;
+}
+
+.horizontal-scroll-item:hover,
+.horizontal-scroll-item-article:hover {
+  border-radius: 0.75rem !important;
 }

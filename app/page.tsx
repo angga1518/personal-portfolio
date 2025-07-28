@@ -248,9 +248,9 @@ export default function Portfolio() {
       </nav>
 
       {/* Hero Section */}
-      <section id="hero" className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 bg-gradient-to-r from-white to-zinc-400 bg-clip-text text-transparent whitespace-nowrap">
+      <section id="hero" className="pt-32 pb-10 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <div className="max-w-6xl mx-auto text-center pb-8">
+          <h1 className="hero-title text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-20 bg-gradient-to-r from-white to-zinc-400 bg-clip-text text-transparent break-words overflow-hidden pb-4">
             Muhammad Erlangga
           </h1>
           <h2 className="text-2xl md:text-3xl text-blue-400 font-semibold mb-8">Software Engineer</h2>
@@ -305,7 +305,7 @@ export default function Portfolio() {
 
       {/* Clients Section with Marquee */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-        <div className="max-w-6xl mx-auto">
+        <div className="mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16">Trusted By</h2>
           <div className="relative">
             <div className="marquee-container">
@@ -340,7 +340,7 @@ export default function Portfolio() {
               {projects.map((project, index) => (
                 <Card
                   key={index}
-                  className="horizontal-scroll-item bg-zinc-800/50 border-zinc-700 hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300 backdrop-blur-sm"
+                  className="horizontal-scroll-item bg-zinc-800/50 border-zinc-700 hover:shadow-xl hover:border-blue-500/50 transition-all duration-300 backdrop-blur-sm overflow-hidden mt-4"
                 >
                   <div className="relative overflow-hidden rounded-t-lg group">
                     <Image
@@ -460,7 +460,7 @@ export default function Portfolio() {
               {articles.map((article, index) => (
                 <Card
                   key={index}
-                  className="horizontal-scroll-item-article bg-zinc-800/50 border-zinc-700 hover:shadow-lg hover:scale-105 hover:border-blue-500/50 transition-all duration-300 backdrop-blur-sm"
+                  className="horizontal-scroll-item-article bg-zinc-800/50 border-zinc-700 hover:shadow-lg hover:border-blue-500/50 transition-all duration-300 backdrop-blur-sm overflow-hidden"
                 >
                   <CardHeader>
                     <CardTitle className="text-white text-lg">{article.title}</CardTitle>
