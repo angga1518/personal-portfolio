@@ -21,7 +21,17 @@ export default function ExperienceSection({ experiences }: ExperienceSectionProp
               <div className="absolute left-2 w-4 h-4 bg-blue-600 rounded-full border-4 border-zinc-950"></div>
               <div className="ml-12">
                 <div className="bg-zinc-800/50 rounded-lg p-6 shadow-lg backdrop-blur-sm experience-card">
-                  <h3 className="text-xl font-bold text-white mb-2">{exp.title}</h3>
+                  <div className="flex items-center gap-3 mb-2">
+                    <img 
+                      src={exp.icon} 
+                      alt={`${exp.company} logo`}
+                      className="w-8 h-8 rounded-full object-cover flex-shrink-0"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
+                    />
+                    <h3 className="text-xl font-bold text-white">{exp.title}</h3>
+                  </div>
                   <div className="flex flex-col sm:flex-row sm:items-center gap-2 mb-4">
                     <div className="flex items-center text-blue-400">
                       <MapPin className="w-4 h-4 mr-1" />
