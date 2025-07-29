@@ -3,13 +3,19 @@
     "title": "Logbook Anestesi UI",
     "description": "Logbook App for the Faculty of Medicine, Universitas Indonesia. For faster development, I've integrated some features as Web Views. For the Flutter side, I'm utilizing Cubit for state management and implementing separation of concerns for improved readability and maintainability. On the web side, we are using React with Typescript, implementing React Context for state management, and utilizing the Chakra-UI component library.",
     "images": [
+      "icon-logbook-anestesi.png",
       "/projects/logbook/logbook-1.png",
       "/projects/logbook/logbook-2.png",
       "/projects/logbook/logbook-3.png",
       "/projects/logbook/logbook-4.png",
       "/projects/logbook/logbook-5.png"
     ],
-    "technologies": ["Flutter", "React", "Typescript", "Cubit"],
+    "technologies": [
+      "Flutter",
+      "React",
+      "Typescript",
+      "Cubit"
+    ],
     "liveUrl": "https://anestesi-ui.id/",
     "githubUrl": "https://play.google.com/store/apps/details?id=com.mobile.logbook_app"
   },
@@ -17,14 +23,37 @@
     "title": "PHR Fasilkom UI",
     "description": "A comprehensive website designed to record and monitor individual medical activities. The platform includes features for ongoing health tracking and an extensive medical history record. Users can also search for healthcare facilities in specific locations, making it easy to access relevant health services nearby. This tool is ideal for personal health management and accessing care resources efficiently.",
     "images": [
+      "icon-phr.png",
       "/projects/phr/phr-1.png",
       "/projects/phr/phr-2.png",
       "/projects/phr/phr-3.png",
       "/projects/phr/phr-4.png"
     ],
-    "technologies": ["Flutter", "Cloud", "Docker"],
+    "technologies": [
+      "Flutter",
+      "Cloud",
+      "Docker"
+    ],
     "liveUrl": "https://phr-fasilkom.netlify.app/",
     "githubUrl": "https://phr-fasilkom.netlify.app/"
+  },
+  {
+    "title": "Maktour Landing Page & CMS",
+    "description": "A landing page and content management system (CMS) for Maktour, enabling all content to be managed from the backend. Built with React for the frontend, Strapi as the headless CMS, AWS S3 for media storage, and AWS SES for email services. This solution streamlines content updates and provides robust infrastructure for scalability and reliability.",
+    "images": [
+      "/projects/maktour/maktour-1.png",
+      "/projects/maktour/maktour-2.png",
+      "/projects/maktour/maktour-3.png",
+      "/projects/maktour/maktour-4.png",
+      "/projects/maktour/maktour-5.png"
+    ],
+    "technologies": [
+      "React",
+      "Strapi",
+      "AWS S3",
+      "AWS SES"
+    ],
+    "liveUrl": "https://maktour.id/"
   },
   {
     "title": "LawanCovid",
@@ -35,7 +64,11 @@
       "/projects/lawan-covid/lawan-covid-3.png",
       "/projects/lawan-covid/lawan-covid-4.png"
     ],
-    "technologies": ["Flutter", "SpringBoot", "Firebase Firestore"],
+    "technologies": [
+      "Flutter",
+      "SpringBoot",
+      "Firebase Firestore"
+    ],
     "liveUrl": "http://bit.ly/VideoLawanCovid",
     "githubUrl": "http://bit.ly/VideoLawanCovid"
   },
@@ -45,7 +78,13 @@
     "images": [
       "/projects/susun-jadwal/susun-jadwal.png"
     ],
-    "technologies": ["React.js", "Flask", "MongoDB", "AWS", "SSO UI"],
+    "technologies": [
+      "React.js",
+      "Flask",
+      "MongoDB",
+      "AWS",
+      "SSO UI"
+    ],
     "liveUrl": "https://susunjadwal.cs.ui.ac.id/",
     "githubUrl": "https://susunjadwal.cs.ui.ac.id/"
   },
@@ -55,7 +94,13 @@
     "images": [
       "/projects/ulas-kelas/ulas-kelas.png"
     ],
-    "technologies": ["Flutter", "SSO UI", "Flask", "MongoDB", "AWS"],
+    "technologies": [
+      "Flutter",
+      "SSO UI",
+      "Flask",
+      "MongoDB",
+      "AWS"
+    ],
     "liveUrl": "https://play.google.com/store/apps/details?id=com.ristek.ulaskelas&hl=en",
     "githubUrl": "https://play.google.com/store/apps/details?id=com.ristek.ulaskelas&hl=en"
   },
@@ -63,9 +108,14 @@
     "title": "Bruwfier",
     "description": "Bruwfier is the ultimate app for home coffee brewers, offering features for tracking brewing activities, favorite recipes, and seller engagement. The app also includes a CMS for administrators to manage backend data efficiently, enhancing the user experience for coffee enthusiasts.",
     "images": [
+      "/projects/bruwfier/icon-bruwfier.png",
       "/projects/bruwfier/preview-bruwfier.png"
     ],
-    "technologies": ["React Native", "Firebase Firestore", "NestJs"],
+    "technologies": [
+      "React Native",
+      "Firebase Firestore",
+      "NestJs"
+    ],
     "liveUrl": "https://play.google.com/store/apps/details?id=com.bruwfier&hl=id",
     "githubUrl": "https://play.google.com/store/apps/details?id=com.bruwfier&hl=id"
   },
@@ -76,7 +126,11 @@
       "/projects/world-cancer-day/world-cancer-day-1.png",
       "/projects/world-cancer-day/world-cancer-day-2.png"
     ],
-    "technologies": ["Laravel", "PostgreSQL", "Vue.js"],
+    "technologies": [
+      "Laravel",
+      "PostgreSQL",
+      "Vue.js"
+    ],
     "liveUrl": "#",
     "githubUrl": "#"
   },
@@ -88,7 +142,10 @@
       "/projects/sipro/sipro-2.png",
       "/projects/sipro/sipro-3.png"
     ],
-    "technologies": ["Django", "AWS"],
+    "technologies": [
+      "Django",
+      "AWS"
+    ],
     "liveUrl": "https://citius.co.id/",
     "githubUrl": "https://citius.co.id/"
   },
@@ -99,7 +156,9 @@
       "/projects/click/click-1.png",
       "/projects/click/click-2.png"
     ],
-    "technologies": ["Laravel"],
+    "technologies": [
+      "Laravel"
+    ],
     "liveUrl": "#",
     "githubUrl": "#"
   }

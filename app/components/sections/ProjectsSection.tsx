@@ -71,8 +71,8 @@ export default function ProjectsSection({ projects, clients }: ProjectsSectionPr
                             key={imageIndex}
                             onClick={() => setImageIndex(index, imageIndex)}
                             className={`w-2 h-2 rounded-full transition-colors duration-200 ${(projectImageIndexes[index] || 0) === imageIndex
-                                ? "bg-blue-400"
-                                : "bg-white/50 hover:bg-white/70"
+                              ? "bg-blue-400"
+                              : "bg-white/50 hover:bg-white/70"
                               }`}
                           />
                         ))}
@@ -92,20 +92,28 @@ export default function ProjectsSection({ projects, clients }: ProjectsSectionPr
                       ))}
                     </div>
                     <div className="flex gap-4">
-                      <Link
-                        href={project.liveUrl}
-                        className="flex items-center text-blue-400 hover:text-blue-300 transition-colors"
-                      >
-                        <ExternalLink className="w-4 h-4 mr-1" />
-                        Live Demo
-                      </Link>
-                      <Link
-                        href={project.githubUrl}
-                        className="flex items-center text-blue-400 hover:text-blue-300 transition-colors"
-                      >
-                        <Github className="w-4 h-4 mr-1" />
-                        GitHub
-                      </Link>
+                      {
+                        project.liveUrl && project.liveUrl !== "#" && project.liveUrl !== "" && (
+                          <Link
+                            href={project.liveUrl}
+                            className="flex items-center text-blue-400 hover:text-blue-300 transition-colors"
+                          >
+                            <ExternalLink className="w-4 h-4 mr-1" />
+                            View Site
+                          </Link>
+                        )
+                      }
+                      {
+                        project.githubUrl && project.githubUrl !== "#" && project.githubUrl !== "" && (
+                          <Link
+                            href={project.githubUrl}
+                            className="flex items-center text-blue-400 hover:text-blue-300 transition-colors"
+                          >
+                            <Github className="w-4 h-4 mr-1" />
+                            GitHub
+                          </Link>
+                        )
+                      }
                     </div>
                   </CardContent>
                 </Card>
