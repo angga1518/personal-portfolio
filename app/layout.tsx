@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata, Viewport } from "next"
 import { Poppins } from "next/font/google"
 import "./globals.css"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -28,7 +29,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   )
 }
