@@ -21,7 +21,6 @@ export default function SkillsSection({ skills, articles }: SkillsSectionProps) 
         
         {/* Tech Stacks Section */}
         <div className="mb-12">
-          <h3 className="text-2xl font-semibold text-center mb-12 text-zinc-300">Tech Stacks</h3>
           <div className="grid md:grid-cols-2 gap-8">
             {Object.entries(skills).map(([category, skillList]) => (
               <div key={category} className="bg-zinc-800/50 rounded-lg p-6 backdrop-blur-sm">
@@ -38,9 +37,11 @@ export default function SkillsSection({ skills, articles }: SkillsSectionProps) 
           </div>
         </div>
 
+        {/* Visual Separator */}
+        <hr className="my-16 sm:my-20 border-zinc-700/80" />
+
         {/* Articles Section */}
         <div>
-          <h3 className="text-2xl font-semibold text-center mb-8 text-zinc-300">Articles</h3>
           <div className="horizontal-scroll-container">
             <div className="horizontal-scroll-content">
               {articles.map((article, index) => (

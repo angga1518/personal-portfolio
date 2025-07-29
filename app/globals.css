@@ -401,6 +401,19 @@ section {
   animation-play-state: paused;
 }
 
+/* Experience Card Hover Effects */
+.experience-card {
+  transition: all 0.3s ease;
+  border: 1px solid transparent; /* Prevents layout shift on hover */
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  background-color: rgba(41, 41, 45, 0.7); /* Slightly lighter background on hover */
+  border-color: rgba(59, 130, 246, 0.3); /* Uses the existing blue theme color */
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+}
+
 /* Horizontal Scroll Containers */
 .horizontal-scroll-container {
   overflow-x: auto;

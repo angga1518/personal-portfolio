@@ -20,7 +20,7 @@ export default function ExperienceSection({ experiences }: ExperienceSectionProp
             <div key={index} className="relative flex items-start mb-12 last:mb-0">
               <div className="absolute left-2 w-4 h-4 bg-blue-600 rounded-full border-4 border-zinc-950"></div>
               <div className="ml-12">
-                <div className="bg-zinc-800/50 rounded-lg p-6 shadow-lg backdrop-blur-sm">
+                <div className="bg-zinc-800/50 rounded-lg p-6 shadow-lg backdrop-blur-sm experience-card">
                   <h3 className="text-xl font-bold text-white mb-2">{exp.title}</h3>
                   <div className="flex flex-col sm:flex-row sm:items-center gap-2 mb-4">
                     <div className="flex items-center text-blue-400">
@@ -36,7 +36,18 @@ export default function ExperienceSection({ experiences }: ExperienceSectionProp
                     {exp.description.map((item, i) => (
                       <li key={i} className="flex items-start">
                         <span className="text-blue-400 mr-2">•</span>
-                        {item}
+                        <span dangerouslySetInnerHTML={{
+                          __html: item
+                            // Senior Frontend Developer
+                            .replace(/Led the development/g, '<strong>Led the development</strong>')
+                            .replace(/40%/g, '<strong>40%</strong>')
+                            // Frontend Developer
+                            .replace(/Developed responsive web applications/g, '<strong>Developed responsive web applications</strong>')
+                            .replace(/Integrated RESTful APIs/g, '<strong>Integrated RESTful APIs</strong>')
+                            // Junior Web Developer
+                            .replace(/Built landing pages and marketing websites/g, '<strong>Built landing pages and marketing websites</strong>')
+                            .replace(/Optimized websites for SEO and performance/g, '<strong>Optimized websites for SEO and performance</strong>')
+                        }} />
                       </li>
                     ))}
                   </ul>
