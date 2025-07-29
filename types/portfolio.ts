@@ -12,8 +12,8 @@ export interface Project {
   description: string;
   images: string[];
   technologies: string[];
-  liveUrl: string;
-  githubUrl: string;
+  liveUrl?: string;
+  githubUrl?: string;
 }
 
 export interface SkillCategory {

@@ -1,10 +1,9 @@
 [
-  { "name": "OY! Indonesia", "logo": "https://i.ibb.co.com/ZpWdJYdZ/oy.png" },
-  { "name": "Tokopedia", "logo": "/tokopedia.png" },
-  { "name": "RISTEK UI", "logo": "https://i.ibb.co.com/nSngMqQ/ristek.jpg" },
-  { "name": "Sayurbox", "logo": "https://i.ibb.co.com/pjRTztyB/sayurbox.jpg" },
-  { "name": "Pinhome", "logo": "https://i.ibb.co.com/67dLSJ6z/pinhome.png" },
-  { "name": "Universitas Indonesia", "logo": "https://i.ibb.co.com/FqzhrWhN/logbook-logo.png" },
-  { "name": "RSCM", "logo": "https://www.pori.or.id/wp-content/uploads/2023/01/pori-logo-small-bg-3.png" },
-  { "name": "Citius", "logo": "https://i.ibb.co.com/H6JJD8w/logo-citius.webp" }
+  { "name": "FK UI", "logo": "/icon-fk-ui.png" },
+  { "name": "RSCM", "logo": "/icon-rscm.png" },
+  { "name": "Fasilkom UI", "logo": "/icon-fasilkom-ui.png" },
+  { "name": "Maktour", "logo": "/icon-maktour.webp"},
+  { "name": "FT UI", "logo": "/icon-ft-ui.png" },
+  { "name": "Citius", "logo": "/icon-citius.webp"},
+  { "name": "Racapital", "logo": "/icon-rac.png"}
 ]

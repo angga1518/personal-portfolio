@@ -42,12 +42,12 @@ export default function SkillsSection({ skills, articles }: SkillsSectionProps) 
 
         {/* Articles Section */}
         <div>
-          <div className="horizontal-scroll-container">
-            <div className="horizontal-scroll-content">
+          <div className="flex justify-center w-full">
+            <div className="flex gap-6 pb-4 pt-2">
               {articles.map((article, index) => (
                 <Card
                   key={index}
-                  className="horizontal-scroll-item-article bg-zinc-800/50 border-zinc-700 hover:shadow-lg hover:border-blue-500/50 transition-all duration-300 backdrop-blur-sm overflow-hidden"
+                  className="w-full max-w-sm bg-zinc-800/50 border-zinc-700 hover:shadow-lg hover:border-blue-500/50 transition-all duration-300 backdrop-blur-sm overflow-hidden"
                 >
                   <CardHeader>
                     <CardTitle className="text-white text-lg">{article.title}</CardTitle>

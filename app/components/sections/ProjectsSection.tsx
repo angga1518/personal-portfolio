@@ -124,7 +124,9 @@ export default function ProjectsSection({ projects, clients }: ProjectsSectionPr
 
         {/* Trusted By Section */}
         <div className="mt-20">
-          <h3 className="text-2xl font-semibold text-center mb-12 text-zinc-300">Trusted by Leading Companies</h3>
+            <h3 className="text-2xl font-semibold text-center mb-12 text-zinc-300">
+              In Collaboration with Companies & Institutions
+            </h3>
           <div className="relative">
             <div className="marquee-container">
               <div className="marquee-content">
