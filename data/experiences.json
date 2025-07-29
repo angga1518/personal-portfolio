@@ -1,38 +1,63 @@
 [
   {
-    "title": "Senior Frontend Developer",
-    "company": "Tech Corp",
+    "title": "Software Engineer",
+    "company": "OY! Indonesia",
     "location": "Jakarta",
-    "period": "Jan 2022 - Present",
+    "period": "August 2022 - Present",
     "description": [
-      "Led the development of the main dashboard using React and TypeScript",
-      "Improved application performance by 40% through code optimization",
-      "Mentored junior developers and conducted code reviews",
-      "Collaborated with design team to implement pixel-perfect UI components"
+      "Led critical performance optimizations including RabbitMQ operations (20% CPU reduction)",
+      "Improved settlement processes (27.31% latency improvement) and database operations (88.56% latency enhancement)",
+      "Spearheaded major initiatives including PostgreSQL upgrade and Mastercard gateway integration",
+      "Implemented advanced search optimization achieving 96.97% dashboard load time reduction",
+      "Developed key features for payment processing, reporting systems, and monitoring solutions"
     ]
   },
   {
-    "title": "Frontend Developer",
-    "company": "Digital Solutions",
-    "location": "Bandung",
-    "period": "Jun 2020 - Dec 2021",
+    "title": "Software Engineer, Intern",
+    "company": "Tokopedia",
+    "location": "Jakarta",
+    "period": "February 2022 - August 2022",
     "description": [
-      "Developed responsive web applications using React and Next.js",
-      "Integrated RESTful APIs and managed state with Redux",
-      "Implemented automated testing with Jest and React Testing Library",
-      "Participated in agile development processes and sprint planning"
+      "Improved data promo insertion process by 500%",
+      "Implemented comprehensive monitoring systems using Grafana, NewRelic, and Datadog",
+      "Enhanced backend efficiency using Golang concurrency and managed database migrations",
+      "Developed internal tools and achieved 3rd place in Internal Tokopedia Tribe Hackathon"
     ]
   },
   {
-    "title": "Junior Web Developer",
-    "company": "StartupXYZ",
-    "location": "Jakarta",
-    "period": "Jan 2019 - May 2020",
+    "title": "Lead Mobile Developer",
+    "company": "RISTEK UI",
+    "location": "Jakarta", 
+    "period": "March 2021 - March 2022",
     "description": [
-      "Built landing pages and marketing websites using HTML, CSS, and JavaScript",
-      "Worked with WordPress and custom PHP development",
-      "Optimized websites for SEO and performance",
-      "Collaborated with marketing team on digital campaigns"
+      "Led weekly Flutter lectures as a mentor",
+      "Headed the Backend Team for the Mobdev final project",
+      "Coordinated multiple projects valued at approximately 100 million rupiahs",
+      "Focused on mobile development education and project management"
+    ]
+  },
+  {
+    "title": "Software Engineer, Intern",
+    "company": "Sayurbox",
+    "location": "Jakarta",
+    "period": "June 2021 - September 2021",
+    "description": [
+      "Enhanced payment integrations with OVO and Oy",
+      "Implemented security measures for payment callbacks",
+      "Set up monitoring systems with Kibana and Grafana",
+      "Developed endpoints using Spring Boot and managed deployments through Jenkins"
+    ]
+  },
+  {
+    "title": "Software Engineer, Intern",
+    "company": "Pinhome",
+    "location": "Jakarta",
+    "period": "December 2020 - May 2021",
+    "description": [
+      "Developed UI for service provider mobile app serving over 1,600 users",
+      "Improved customer order allocation by 87%",
+      "Created internal data interaction tools",
+      "Won 1st place in Internal Pinhome Hackathon (Pinhackathon)"
     ]
   }
 ]

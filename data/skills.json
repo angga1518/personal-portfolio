@@ -1,6 +1,12 @@
 {
-  "Languages": ["JavaScript", "TypeScript", "Python", "Java", "PHP"],
-  "Frameworks/Libraries": ["React", "Next.js", "Vue.js", "Node.js", "Express.js"],
-  "Tools": ["Git", "Docker", "Webpack", "Figma", "VS Code"],
-  "Databases": ["MongoDB", "PostgreSQL", "MySQL", "Redis"]
+  "Languages": ["JavaScript", "TypeScript", "Python", "Java", "PHP", "Golang"],
+  "Frontend": ["React", "React.js", "Next.js", "Vue.js", "HTML", "CSS", "Chakra-UI"],
+  "Mobile": ["Flutter", "React Native"],
+  "Backend": ["Node.js", "Express.js", "SpringBoot", "Flask", "Django", "NestJs", "Laravel", "YII"],
+  "Databases": ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase Firestore"],
+  "DevOps/Cloud": ["AWS", "Docker", "Jenkins", "Git"],
+  "Monitoring": ["Grafana", "NewRelic", "Datadog", "Kibana"],
+  "State Management": ["Redux", "Cubit", "Context API"],
+  "Message Queue": ["RabbitMQ"],
+  "Tools": ["Git", "Docker", "Webpack", "Figma", "VS Code"]
 }

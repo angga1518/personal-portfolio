@@ -1,27 +1,22 @@
 [
   {
-    "title": "Building Scalable React Applications",
+    "title": "Web Rendering Wars: CSR vs SSR",
     "platform": "Medium",
-    "url": "#"
+    "url": "https://medium.com/@nugrahaa878/web-rendering-wars-csr-vs-ssr-84ae3e903ada"
   },
   {
-    "title": "Modern CSS Techniques for Better UX",
-    "platform": "dev.to",
-    "url": "#"
-  },
-  {
-    "title": "TypeScript Best Practices in 2024",
+    "title": "How we implement Table Partitioning Without Any Downtime — Planning",
     "platform": "Medium",
-    "url": "#"
+    "url": "https://medium.com/oyindonesia/how-we-implement-table-partitioning-without-any-downtime-planning-fa57e43eb685"
   },
   {
-    "title": "The Future of Web Development",
-    "platform": "dev.to",
-    "url": "#"
-  },
-  {
-    "title": "Optimizing React Performance",
+    "title": "How we implement Table Partitioning Without Any Downtime — Execution",
     "platform": "Medium",
-    "url": "#"
+    "url": "https://medium.com/oyindonesia/how-we-implement-table-partitioning-without-any-downtime-execution-eadac94db8bb"
+  },
+  {
+    "title": "Kenapa Harus Clean Code?",
+    "platform": "Medium",
+    "url": "https://medium.com/@ari-angga/kenapa-harus-clean-code-c3e318aa48e9"
   }
 ]

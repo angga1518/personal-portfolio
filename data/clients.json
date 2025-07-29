@@ -1,10 +1,10 @@
 [
-  { "name": "TechCorp", "logo": "/placeholder.svg?height=60&width=120&text=TechCorp" },
-  { "name": "InnovateLab", "logo": "/placeholder.svg?height=60&width=120&text=InnovateLab" },
-  { "name": "DigitalFlow", "logo": "/placeholder.svg?height=60&width=120&text=DigitalFlow" },
-  { "name": "CloudSync", "logo": "/placeholder.svg?height=60&width=120&text=CloudSync" },
-  { "name": "DataViz", "logo": "/placeholder.svg?height=60&width=120&text=DataViz" },
-  { "name": "WebCraft", "logo": "/placeholder.svg?height=60&width=120&text=WebCraft" },
-  { "name": "AppFlow", "logo": "/placeholder.svg?height=60&width=120&text=AppFlow" },
-  { "name": "CodeLab", "logo": "/placeholder.svg?height=60&width=120&text=CodeLab" }
+  { "name": "OY! Indonesia", "logo": "https://i.ibb.co.com/ZpWdJYdZ/oy.png" },
+  { "name": "Tokopedia", "logo": "/assets/tokopedia.png" },
+  { "name": "RISTEK UI", "logo": "https://i.ibb.co.com/nSngMqQ/ristek.jpg" },
+  { "name": "Sayurbox", "logo": "https://i.ibb.co.com/pjRTztyB/sayurbox.jpg" },
+  { "name": "Pinhome", "logo": "https://i.ibb.co.com/67dLSJ6z/pinhome.png" },
+  { "name": "Universitas Indonesia", "logo": "https://i.ibb.co.com/FqzhrWhN/logbook-logo.png" },
+  { "name": "RSCM", "logo": "https://www.pori.or.id/wp-content/uploads/2023/01/pori-logo-small-bg-3.png" },
+  { "name": "Citius", "logo": "https://i.ibb.co.com/H6JJD8w/logo-citius.webp" }
 ]
