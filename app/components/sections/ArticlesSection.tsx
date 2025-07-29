@@ -15,7 +15,7 @@ export default function ArticlesSection({ articles }: ArticlesSectionProps) {
       <LuminousBlob className="luminous-blob-8" />
 
       <div className="max-w-6xl mx-auto relative z-10">
-        <h2 className="text-4xl font-bold text-center mb-16">Recent Writings</h2>
+        <h2 className="text-4xl font-bold text-center mb-16">Articles</h2>
         <div className="horizontal-scroll-container">
           <div className="horizontal-scroll-content">
             {articles.map((article, index) => (

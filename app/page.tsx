@@ -4,10 +4,8 @@ import Navigation from "./components/ui/Navigation"
 import Footer from "./components/ui/Footer"
 import HeroSection from "./components/sections/HeroSection"
 import ExperienceSection from "./components/sections/ExperienceSection"
-import ClientsSection from "./components/sections/ClientsSection"
 import ProjectsSection from "./components/sections/ProjectsSection"
 import SkillsSection from "./components/sections/SkillsSection"
-import ArticlesSection from "./components/sections/ArticlesSection"
 import ContactSection from "./components/sections/ContactSection"
 
 // Import data
@@ -32,8 +30,7 @@ export default function Portfolio() {
   const navigationItems: NavigationItem[] = [
     { id: "experience", label: "Experience" },
     { id: "projects", label: "Projects" },
-    { id: "skills", label: "Skills" },
-    { id: "articles", label: "Articles" },
+    { id: "skills", label: "Tech Stacks & Articles" },
     { id: "contact", label: "Contact" },
   ]
 
@@ -43,10 +40,8 @@ export default function Portfolio() {
       
       <HeroSection personal={personal} />
       <ExperienceSection experiences={experiences} />
-      <ClientsSection clients={clients} />
-      <ProjectsSection projects={projects} />
-      <SkillsSection skills={skills} />
-      <ArticlesSection articles={articles} />
+      <ProjectsSection projects={projects} clients={clients} />
+      <SkillsSection skills={skills} articles={articles} />
       <ContactSection personal={personal} />
       
       <Footer name={personal.name} />
