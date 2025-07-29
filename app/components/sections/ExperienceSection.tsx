@@ -36,18 +36,7 @@ export default function ExperienceSection({ experiences }: ExperienceSectionProp
                     {exp.description.map((item, i) => (
                       <li key={i} className="flex items-start">
                         <span className="text-blue-400 mr-2">•</span>
-                        <span dangerouslySetInnerHTML={{
-                          __html: item
-                            // Senior Frontend Developer
-                            .replace(/Led the development/g, '<strong>Led the development</strong>')
-                            .replace(/40%/g, '<strong>40%</strong>')
-                            // Frontend Developer
-                            .replace(/Developed responsive web applications/g, '<strong>Developed responsive web applications</strong>')
-                            .replace(/Integrated RESTful APIs/g, '<strong>Integrated RESTful APIs</strong>')
-                            // Junior Web Developer
-                            .replace(/Built landing pages and marketing websites/g, '<strong>Built landing pages and marketing websites</strong>')
-                            .replace(/Optimized websites for SEO and performance/g, '<strong>Optimized websites for SEO and performance</strong>')
-                        }} />
+                        {item}
                       </li>
                     ))}
                   </ul>
