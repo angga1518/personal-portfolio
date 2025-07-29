@@ -6,6 +6,9 @@ interface ClientsSectionProps {
 }
 
 export default function ClientsSection({ clients }: ClientsSectionProps) {
+  // Create enough duplicates for seamless scrolling
+  const duplicatedClients = [...clients, ...clients, ...clients]
+  
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="mx-auto">
@@ -13,8 +16,8 @@ export default function ClientsSection({ clients }: ClientsSectionProps) {
         <div className="relative">
           <div className="marquee-container">
             <div className="marquee-content">
-              {[...clients, ...clients].map((client, index) => (
-                <div key={index} className="marquee-item">
+              {duplicatedClients.map((client, index) => (
+                <div key={`${client.name}-${index}`} className="marquee-item">
                   <Image
                     src={client.logo || "/placeholder.svg"}
                     alt={client.name}

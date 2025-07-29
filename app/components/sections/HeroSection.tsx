@@ -6,7 +6,7 @@ interface HeroSectionProps {
 
 export default function HeroSection({ personal }: HeroSectionProps) {
   return (
-    <section id="hero" className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section id="hero" className="pt-48 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="max-w-6xl mx-auto text-center pb-8">
         <h1 className="hero-title text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold mb-6 bg-gradient-to-r from-white to-zinc-400 bg-clip-text text-transparent break-words overflow-hidden pb-4">
           {personal.name}

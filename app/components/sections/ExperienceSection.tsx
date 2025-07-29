@@ -12,14 +12,14 @@ export default function ExperienceSection({ experiences }: ExperienceSectionProp
       <LuminousBlob className="luminous-blob-1" />
       <LuminousBlob className="luminous-blob-2" />
 
-      <div className="max-w-4xl mx-auto relative z-10">
+      <div className="max-w-3xl mx-auto relative z-10">
         <h2 className="text-4xl font-bold text-center mb-16">Work Experience</h2>
         <div className="relative">
-          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-blue-600"></div>
+          <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-blue-600"></div>
           {experiences.map((exp, index) => (
             <div key={index} className="relative flex items-start mb-12 last:mb-0">
-              <div className="absolute left-6 w-4 h-4 bg-blue-600 rounded-full border-4 border-zinc-950"></div>
-              <div className="ml-20">
+              <div className="absolute left-2 w-4 h-4 bg-blue-600 rounded-full border-4 border-zinc-950"></div>
+              <div className="ml-12">
                 <div className="bg-zinc-800/50 rounded-lg p-6 shadow-lg backdrop-blur-sm">
                   <h3 className="text-xl font-bold text-white mb-2">{exp.title}</h3>
                   <div className="flex flex-col sm:flex-row sm:items-center gap-2 mb-4">
