@@ -1,10 +1,5 @@
 [
   {
-    "title": "Web Rendering Wars: CSR vs SSR",
-    "platform": "Medium",
-    "url": "https://medium.com/@nugrahaa878/web-rendering-wars-csr-vs-ssr-84ae3e903ada"
-  },
-  {
     "title": "How we implement Table Partitioning Without Any Downtime — Planning",
     "platform": "Medium",
     "url": "https://medium.com/oyindonesia/how-we-implement-table-partitioning-without-any-downtime-planning-fa57e43eb685"
@@ -13,10 +8,5 @@
     "title": "How we implement Table Partitioning Without Any Downtime — Execution",
     "platform": "Medium",
     "url": "https://medium.com/oyindonesia/how-we-implement-table-partitioning-without-any-downtime-execution-eadac94db8bb"
-  },
-  {
-    "title": "Kenapa Harus Clean Code?",
-    "platform": "Medium",
-    "url": "https://medium.com/@ari-angga/kenapa-harus-clean-code-c3e318aa48e9"
   }
 ]
