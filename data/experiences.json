@@ -1,16 +1,30 @@
 [
   {
-    "title": "Software Engineer",
+    "title": "Software Engineer L2",
     "company": "OY! Indonesia",
     "location": "Jakarta",
-    "period": "August 2022 - Present",
+    "period": "August 2023 - Present",
     "icon": "/oy.svg",
     "description": [
-      "Led critical performance optimizations including RabbitMQ operations (20% CPU reduction)",
-      "Improved settlement processes (27.31% latency improvement) and database operations (88.56% latency enhancement)",
-      "Spearheaded major initiatives including PostgreSQL upgrade and Mastercard gateway integration",
-      "Implemented advanced search optimization achieving 96.97% dashboard load time reduction",
-      "Developed key features for payment processing, reporting systems, and monitoring solutions"
+      "Boosted backlog insertion throughput by over 2800% by optimizing data retrieval and implementing a parallel processing architecture.",
+      "Streamlined RabbitMQ operations, reducing CPU utilization by 20% and message count by 66% through an innovative delayed publisher mechanism on QRIS Auto Cancel Mechanism.",
+      "Decreased settlement callback latency by combining bulk processing and caching mechanisms, resulting in a 27.31% improvement and significantly enhancing the 95th percentile for faster data retrieval.",
+      "Optimized backlog settlement by implementing a separation of 'hot' and 'cold' data tables for critical data, resulting in a 60% improvement in data retrieval latency and a 93% enhancement in performance."
+    ]
+  },
+  {
+    "title": "Software Engineer L1",
+    "company": "OY! Indonesia",
+    "location": "Jakarta",
+    "period": "August 2022 - August 2023",
+    "icon": "/oy.svg",
+    "description": [
+      "Led cross-team collaboration on advanced search optimization, achieving a 96.97% reduction in acceptance dashboard load time and a 99.71% decrease in 95th percentile latency.",
+      "Spearheaded the table partitioning initiative for the settlement table, resulting in an 88.56% improvement in 99th percentile latency and a 7.86% enhancement in CPU utilization.",
+      "Developed features for generating and downloading reports across multiple products, including asynchronous report links and file uploads to S3.",
+      "Pioneered Digma AI adoption for continuous feedback, enhancing developer efficiency through real-time code observability in the IDE.",
+      "Enabled in-house processing of credit/debit card transactions through direct integration with the Mastercard Integrated Gateway Service (MIGS), eliminating reliance on third-party gateways.",
+      "As DRI for Slow Queries, drove a 62% improvement in delayed settlement dashboard performance and a 99.81% enhancement in the Payment Link dashboard while spearheading initiatives to reduce slow queries across multiple domains, including improving query performance related to Virtual Accounts by 75%."
     ]
   },
   {
